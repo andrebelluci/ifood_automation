@@ -1,0 +1,34 @@
+# Dependências base para automação Selenium
+# Estas são as dependências essenciais que sempre precisamos
+
+# Selenium WebDriver - Core da automação
+selenium==4.15.2
+
+# Gerenciamento automático de drivers (Chrome, Firefox, etc.)
+webdriver-manager==4.0.1
+
+# Framework de testes - mais robusto que unittest
+pytest==7.4.3
+
+# Plugins essenciais do pytest
+pytest-html==4.1.1              # Relatórios HTML profissionais
+pytest-xdist==3.3.1             # Execução paralela de testes
+pytest-rerunfailures==12.0      # Re-execução automática de testes falhados
+pytest-timeout==2.1.0           # Timeout para testes longos
+
+# Utilitários para desenvolvimento
+requests==2.31.0                # Para requisições HTTP (APIs)
+pydantic==2.4.2                # Validação de dados
+python-dotenv==1.0.0            # Gerenciamento de variáveis de ambiente
+
+# Logging e monitoramento
+coloredlogs==15.0.1             # Logs coloridos no terminal
+structlog==23.1.0               # Logging estruturado
+
+# Manipulação de dados
+pandas==2.1.1                   # Para análise de dados de teste
+openpyxl==3.1.2                 # Para leitura de arquivos Excel
+
+# Utilitários de sistema
+psutil==5.9.6                   # Informações do sistema
+python-dateutil==2.8.2          # Manipulação de datas

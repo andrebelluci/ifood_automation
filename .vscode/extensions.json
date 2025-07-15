@@ -1,0 +1,35 @@
+{
+    // Extensões recomendadas para automação com Selenium
+    "recommendations": [
+        // Extensões essenciais para Python
+        "ms-python.python", // Suporte completo ao Python
+        "ms-python.vscode-pylance", // IntelliSense avançado
+        "ms-python.black-formatter", // Formatador de código
+        "ms-python.flake8", // Linter para qualidade do código
+        "ms-python.isort", // Organizador de imports
+        // Extensões para testes
+        "ms-python.pytest", // Integração com pytest
+        "littlefoxteam.vscode-python-test-adapter", // Explorador de testes
+        "hbenl.vscode-test-explorer", // Interface visual para testes
+        // Extensões para desenvolvimento
+        "ms-vscode.vscode-json", // Suporte aprimorado a JSON
+        "redhat.vscode-yaml", // Suporte a YAML
+        "ms-vscode.live-server", // Servidor local para relatórios
+        // Extensões para Git e versionamento
+        "eamodio.gitlens", // Melhor integração com Git
+        "mhutchie.git-graph", // Visualização do histórico Git
+        // Extensões para produtividade
+        "ms-vscode.vscode-todo-highlight", // Destaque de TODOs
+        "streetsidesoftware.code-spell-checker", // Verificador ortográfico
+        "aaron-bond.better-comments", // Comentários coloridos
+        // Extensões para debugging e logs
+        "ms-vscode.vscode-serial-monitor", // Monitor de logs
+        "IBM.output-colorizer", // Colorização de outputs
+        // Extensões para HTML/CSS (para Page Objects)
+        "bradlc.vscode-tailwindcss", // Suporte a Tailwind CSS
+        "formulahendry.auto-rename-tag", // Renomeação automática de tags
+        // Extensões para documentação
+        "yzhang.markdown-all-in-one", // Suporte completo a Markdown
+        "shd101wyy.markdown-preview-enhanced" // Preview avançado de Markdown
+    ]
+}

@@ -1,0 +1,37 @@
+# Dependências de desenvolvimento
+# Estas são usadas apenas durante o desenvolvimento e não em produção
+
+# Inclui todas as dependências base
+-r base.txt
+
+# Ferramentas de qualidade de código
+black==23.9.1                   # Formatador de código automático
+flake8==6.1.0                   # Linter para verificar qualidade do código
+isort==5.12.0                   # Organizador de imports
+pylint==2.17.7                  # Análise estática mais rigorosa
+mypy==1.5.1                     # Verificador de tipos
+
+# Ferramentas de debugging e profiling
+ipdb==0.13.13                   # Debugger interativo
+pytest-profiling==1.7.0         # Profiling de performance dos testes
+memory-profiler==0.61.0         # Monitoramento de memória
+
+# Documentação
+sphinx==7.2.6                   # Gerador de documentação
+sphinx-rtd-theme==1.3.0         # Tema para documentação
+
+# Ferramentas de desenvolvimento
+pre-commit==3.4.0               # Hooks de pre-commit para Git
+tox==4.11.3                     # Testes em múltiplos ambientes Python
+coverage==7.3.2                 # Cobertura de código
+pytest-cov==4.1.0               # Integração coverage com pytest
+
+# Ferramentas de build e deploy
+setuptools==68.2.2              # Ferramentas de build
+wheel==0.41.2                   # Formato de distribuição
+twine==4.0.2                    # Upload de pacotes
+
+# Utilitários de desenvolvimento
+faker==19.6.2                   # Geração de dados fake para testes
+factory-boy==3.3.0              # Factory pattern para criação de objetos
+freezegun==1.2.2                # Mock de datas/tempo para testes

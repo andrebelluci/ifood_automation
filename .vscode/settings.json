@@ -1,0 +1,60 @@
+{
+    // Configurações específicas do Python para automação
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+
+    // Configurações do pytest para integração com VS Code
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests/",
+        "-v",
+        "--tb=short"
+    ],
+
+    // Configurações do linter para manter código limpo
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+
+    // Formatação automática do código
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+
+    // Configurações do editor para melhor experiência
+    "editor.formatOnSave": true,
+    "editor.rulers": [88],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    // Configurações específicas para arquivos Python
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+
+    // Configurações de arquivos e pastas
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/venv": true,
+        "**/.env": true
+    },
+
+    // Configurações do terminal integrado
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+
+    // Configurações de debugging
+    "python.debugging.internalConsoleOptions": "neverOpen",
+
+    // Configurações para melhor visualização de logs
+    "search.exclude": {
+        "logs/**": true,
+        "reports/**": true
+    }
+}
